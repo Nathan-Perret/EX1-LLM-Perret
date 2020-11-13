@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(3, 33, 58);
+}
+nav{
+  
+    background-color: rgb(2, 5, 36);
+}
+nav ul{
+    margin-left: 10%;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li button{
+    background-color: rgb(2, 5, 36) ;
+    color: white;
+}
+.dropbtn {
+    background-color:  rgb(2, 5, 36);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+.contenido{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.contenido a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;  
+}
+.contenido a:hover {background-color: #ddd;}
+
+.opciones:hover .contenido {display: block;}
+
+.opciones:hover .dropbtn {background-color: #838683;}
+
+.web{
+margin: 0% 5%;
+}
+main{
+    margin-top: 0%;
+    background-image: url('/img/bg-film.png');
+    color: white;
+}
+.info{
+    width: 50%;
+}
+
+main ul li{
+    display: inline;
+list-style: none;
+}
+main ul li p{
+    display: inline;
+}
+.borde{
+    border: solid 1px white;
+}
+main h1{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 65px; 
+}
+.boton {
+    background-color: #757d96;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  article h2{
+      border-bottom: 1px solid white;
+      text-align: center;
+      color: white;
+      padding: 10px;
+  }
+  .grid-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;
+
+  }
+  .grid-container p{
+margin: 10px;
+  }
+  .grid-container img{
+      width: 100%;
+  }
+  footer{
+      background-color: rgb(2, 5, 36);
+      text-align: center;
+  }
+  footer ul{
+      list-style: none;
+  display: inline;
+    }
+    footer ul li{
+        display: inline;
+        color: rgb(107, 107, 107);
+        margin: 0 5px;
+    }
+    footer ul li a{
+        text-decoration: none;
+        color: rgb(33, 171, 212);
+    }
